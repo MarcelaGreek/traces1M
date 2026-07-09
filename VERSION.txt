@@ -1,0 +1,10 @@
+Option B v1 clean
+
+Includes:
+- Part A_v6 evaluator with row-level chunking: ROW_CHUNKS_PER_ROW=2 by default.
+- Part A writes exactly three output files:
+  1. outputs_A_v6/openai_eval_20_final_labels.csv
+  2. outputs_A_v6/openai_eval_20_final_labels.jsonl
+  3. outputs_A_v6/openai_eval_20_chunks_for_embeddings.jsonl
+- Part B reads only outputs_A_v6/openai_eval_20_chunks_for_embeddings.jsonl for embeddings.
+- Supabase vector store SQL has no RLS and no policies for toy 20-row testing.

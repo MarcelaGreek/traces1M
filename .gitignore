@@ -1,0 +1,32 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets
+.env
+*.env
+
+# Outputs
+outputs/
+outputs_A_v6/
+outputs_B_v1/
+*.jsonl
+*.csv
+*.zip
+b1_retrieval_result.json
+
+# Large / temporary data
+data/private/
+*.zip
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
